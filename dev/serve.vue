@@ -7,7 +7,7 @@
 <template>
   <div id="app">
     <div class="contentgrid">
-      <Carousel
+<!--      <Carousel
         ref="contentgrid"
         :dataArray="datatext"
         :loading="true"
@@ -25,8 +25,8 @@
             {{ htmlText.StatusName }}
           </div>
         </div>
-      </Carousel>
-      <!-- <Contentgrid
+      </Carousel>-->
+       <Contentgrid
         ref="contentgrid"
         :dataArray="datatext"
         :loading="true"
@@ -43,7 +43,7 @@
             {{ htmlText.StatusName }}
           </div>
         </div>
-      </Contentgrid> -->
+      </Contentgrid>
     </div>
   </div>
 </template>
